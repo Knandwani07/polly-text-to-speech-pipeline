@@ -62,7 +62,7 @@ This solution is ideal for building audiobook generators, accessibility tools, p
 | lambda/          | AWS Lambda function code for text-to-speech processing            |
 | iam/             | Custom IAM policy and execution role configuration                |
 | architecture/    | Architecture diagram and detailed system design breakdown         |
-| docs/            | Step-by-step execution guide, setup instructions, and cleanup     |
+| workflow/            | Step-by-step execution guide, setup instructions, and cleanup     |
 | samples/         | Sample input text files and example audio output                  |
 
 
