@@ -1,0 +1,23 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+      {
+          "Effect": "Allow",
+          "Action": [
+              "s3:GetObject",
+              "s3:PutObject"
+          ],
+          "Resource": [
+              "arn:aws:s3:::amc-polly-source-bucket-0302/*",
+              "arn:aws:s3:::amc-polly-destination-bucket-0302/*"
+          ]
+      },
+      {
+          "Effect": "Allow",
+          "Action": [
+              "polly:SynthesizeSpeech"
+          ],
+          "Resource": "*"
+      }
+  ]
+}
